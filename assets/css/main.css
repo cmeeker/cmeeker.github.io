@@ -7351,6 +7351,7 @@ img.mfp-img {
 }
 @media screen and (max-width: 480px) {
   .hero-unit .hero-content .hero-text p {
+    margin-left: 0px;
     font-size: 1.3em;
     margin-left: 100px;
   }
@@ -7380,7 +7381,7 @@ img.mfp-img {
 @media screen and (max-width: 480px){
   .butali {
   text-align: center;
-padding-left: 100px;
+  padding-left: 0px;
 } 
 }
 
