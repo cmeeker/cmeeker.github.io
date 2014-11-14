@@ -7278,9 +7278,8 @@ img.mfp-img {
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .hero-unit .hero-content {
-    
-    margin-top: -225px;
-    margin-left: -40px;
+    margin-top: -150px;
+
 
   }
 }
@@ -7315,7 +7314,7 @@ img.mfp-img {
 @media screen and (max-width: 480px) {
   .hero-unit .hero-content .hero-text .hero-heading {
     font-size: 3em;
-    padding-left: 100px;
+    padding-left: 0px;
   }
 }
 .hero-unit .hero-content .hero-text .looper {
