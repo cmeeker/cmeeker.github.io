@@ -84,7 +84,7 @@ jQuery( function($){
 			slide_links: 'blank',		// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 			thumb_links: 0,				// Individual thumb links for each slide
 			slides:  	[				// Slideshow Images
-							{image : 'assets/img/sliders/pixlrSlider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading">TALK.</h2><p><h2 class="hero-heading">CHARGE.</h2><p><h2 class="hero-heading">PROTECT.</h2><p>POWER CLIQ DOES IT ALL.</p></div>', thumb : '', url : ''},
+							{image : 'assets/img/sliders/pixlrSlider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading">TALK.</h2><p><h2 class="hero-heading">CHARGE.</h2><p><h2 class="hero-heading">PROTECT.</h2><p>POWERCLIQ DOES IT ALL.</p></div>', thumb : '', url : ''},
 							// {image : 'assets/img/sliders/slider2.jpg', title : '<div class="hero-text"><h2 class="hero-heading">PARALLAX</h2><p>Scrolling the page is fun with parallax background</p></div>', thumb : '', url : ''},
 							// {image : 'assets/img/sliders/slider3.jpg', title : '<div class="hero-text"><h2 class="hero-heading">BUY ONE FOR TWO</h2><p>Buy one to get both of the agency and personal theme</p></div>', thumb : '', url : ''}  
 						],
