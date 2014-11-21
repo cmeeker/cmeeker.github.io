@@ -38,6 +38,28 @@ h1, h2, h3, h4, h5, h6 {
   src: url('../fonts/brankic.eot?#iefix') format('eot'), url('../fonts/brankic.svg') format('svg'), url('../fonts/brankic.ttf') format('truetype'), url('../fonts/brankic.woff') format('woff');
 }
 
+
+
+/*social media hover colors*/
+.social-icon li.kickHover a:hover{
+  color:#44EF38;
+}
+.social-icon li.twitHover a:hover{
+  color:#55acee;
+}
+.social-icon li.fbHover a:hover{
+  color:#3b5998;
+}
+.social-icon li.instaHover a:hover{
+  color:#A36A28;
+}
+
+
+
+/*social media hover colors*/
+
+
+
 /* --------------------- */
 /* NAVIGATION BAR
 /* --------------------- */
