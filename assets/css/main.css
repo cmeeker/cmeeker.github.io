@@ -7349,14 +7349,14 @@ img.mfp-img {
   color: white;
 transition: border-radius .5s;
 margin-top: 100px;
-background-color: (39, 213, 55, 0.78);
+background-color: rgba(39, 213, 55, 0.78);
 border-color: rgba(0, 0, 0, 0.04);
 
 }
 .kicstarter-button:hover{
 border-radius: 10px;
 
-background-color: (39, 213, 55, 0.9);
+background-color: rgba(39, 213, 55, 0.9);
 border-color: rgba(0, 0, 0, 0.1);
 
 }
