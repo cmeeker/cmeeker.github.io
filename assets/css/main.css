@@ -7330,6 +7330,21 @@ img.mfp-img {
 
 }
 
+@media screen and (max-width: 480px) {
+  .kicstarter-button{
+    font-size: 13px;
+    color: white;
+    transition: border-radius .5s;
+    margin-top: 25px;
+    background-color: #27D537;
+    border-color: #27D537;
+
+  }
+
+
+}
+
+
 .kicstarter-button{
   color: white;
 transition: border-radius .5s;
