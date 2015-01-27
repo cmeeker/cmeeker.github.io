@@ -1,4 +1,7 @@
-/* ------------------ BASE STYLES ------------------ */
+
+  
+
+
 html, body {
   height: 100%;
   width: 100%;
@@ -14,13 +17,30 @@ body {
 }
 body.fullscreen-image-background {
   background-image: url('../img/sliders/slider1.jpg?1394417052');
-  background-size: cover;
+ /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center;*/
+
+
 }
+
+body.fullscreen-image-background{
+
+
+background-position-y: 12%;
+background-position-x: 22%;
+
+
+}
+
+
+
+
+
+
 @media screen and (min-width: 1025px) {
   body.fullscreen-image-background {
-    background-attachment: fixed;
+ /*   background-attachment: fixed;*/
   }
 }
 
@@ -58,7 +78,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /*social media hover colors*/
 
+/*MEDIA QUERIES FOR MOBILE BACKGROUND*/
 
+
+
+  
+
+
+
+/*MEND MEDIA QUERIES FOR MOBILE*/
 
 /* --------------------- */
 /* NAVIGATION BAR
@@ -447,7 +475,7 @@ img {
   left: 0;
   top: 0;
   overflow: hidden;
-  z-index: -999;
+  z-index: -10;
   height: 100%;
   width: 100%;
 }
@@ -460,6 +488,8 @@ img {
   outline: none;
   border: none;
 }
+
+
 
 #supersized.speed img {
   -ms-interpolation-mode: nearest-neighbor;
@@ -6363,6 +6393,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+@media screen and(max-width: 500px){
+.hero-unit{
+  background-color: pink;
+}
+}
+
 
 .looper {
   position: relative;
@@ -8297,6 +8333,21 @@ img.mfp-img {
 @media screen and (max-width: 480px) {
   .copyright {
     width: 100%;
-    text-align: center;
+    text-align: center; 
   }
+
 }
+
+@media screen and (max-width: 480px) {
+ .hero-unit{
+  background-color:rgb(183, 186, 185);
+
+ }
+}
+
+
+
+
+
+
+

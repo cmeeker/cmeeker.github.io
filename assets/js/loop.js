@@ -93,6 +93,8 @@ jQuery( function($){
 		$(".fa-pause, .fa-play").click( function(){
 			$(this).toggleClass("fa-pause fa-play");
 		});	
+
+
 	}
 
 	
