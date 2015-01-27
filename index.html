@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+sub<!DOCTYPE html>
 <html>
     <head>
 
@@ -38,7 +38,7 @@
                     <a class="link tumblr" title= "Phil's Tumbler" href="http://philbosco.tumblr.com" target="_blank"></a>
                     <a class="link facebook" title= "Phil's Facebook" href="https://www.facebook.com/phillboscarino" target="_blank"></a>
                     <a class="link instagram" title= "Phil's Instagram" href="http://instagram.com/philboscarino" target="_blank"></a>
-                    <a class="link mail" title= "Contact Phil via Email" href="http://philbosco.tumblr.com/ask" target="_blank"></a>
+                    <a class="link mail" title= "Contact Phil via Email" href="http://philbos.co/ask" target="_blank"></a>
                 </div>
             </div>
         </div>
@@ -65,9 +65,11 @@
                     'margin-top': -(height - $(window).height()) / 2
                 });
             }
+
             $(document).ready(function() {
                 $("#jplayer").jPlayer({
                     ready: function() {
+
                         var testOps = {
                             m4v: "http://www.jplayer.org/video/m4v/Big_Buck_Bunny_Trailer_480x270_h264aac.m4v",
                             ogv: "http://www.jplayer.org/video/ogv/Big_Buck_Bunny_Trailer_480x270.ogv",
@@ -78,6 +80,7 @@
                             // m4v: "http://dizofyq6y2cqx.cloudfront.net/lorde/teamvid3.m4v",
                             ogv: "NewProject.ogv"
                         };
+
                         $(this).jPlayer("setMedia", realOps).jPlayer("play");
                     },
                     // swfPath: "http://lorde.co.nz/js/jplayer",
@@ -88,6 +91,7 @@
                 setVideoSize();
                 $('object').height(200);//TODO this fixes video for safari but beter solution surely?
             });
+
             $(window).resize(setVideoSize);
         </script>
     </body>
